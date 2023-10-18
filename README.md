@@ -11,14 +11,14 @@ This package provides a straightforward in-memory cache implementation. It allow
 -   **Thread-Safe**: Utilizes a sync.RWMutex for safe concurrent access.
 
 ## Installation
-`go get -u github.com/yourusername/cache` 
+`go get -u github.com/uzzalhcse/gcache` 
 
 ## Usage
 ```
 package main
 
 import (
-"github.com/yourusername/cache"
+cache "github.com/uzzalhcse/gcache"
 "time"
 )
 
